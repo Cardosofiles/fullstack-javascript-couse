@@ -1,0 +1,19 @@
+{
+  "name": "npx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "hello-world-npm",
+    "tailwindcss": "npx tailwindcss -i ./input.css -o ./src/styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "hello-world-npm": "^1.1.1"
+  }
+}

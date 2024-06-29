@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #444;
+}
+
+h1 {
+  color: rgb(255, 0, 8);
+}

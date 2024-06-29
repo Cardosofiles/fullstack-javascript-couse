@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praticando a Manipulação do DOM</title>
+    <link
+      rel="icon"
+      type="imagem/png"
+      href="https://cdn-icons-png.flaticon.com/128/5968/5968292.png"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body class="bg-slate-500">
+    <header class="text-center">
+      <h1>Enviando Valores do DOM para o Javascript</h1>
+    </header>
+
+    <section class="text-center justify-center flex flex-col">
+      <h2>Registre-se!</h2>
+      <label for="username" class="">Nome de Usuário:</label>
+      <input
+        class="max-w-40 flex mx-auto"
+        type="text"
+        name="username"
+        id="username"
+      />
+      <br />
+      <label for="password">Senha:</label>
+      <input
+        class="max-w-40 flex mx-auto rounded"
+        type="password"
+        name="password"
+        id="password"
+      />
+      <br />
+      <label for="passwordConfirmation">Confirme sua senha:</label>
+      <input
+        class="border-black max-w-40 flex mx-auto"
+        type="password"
+        name="passwordConfirmation"
+        id="passwordConfirmation"
+      />
+      <br />
+      <button class="border mx-auto w-40" onclick="register(this.parentNode)">
+        Registrar
+      </button>
+    </section>
+  </body>
+</html>

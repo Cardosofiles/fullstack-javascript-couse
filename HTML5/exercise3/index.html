@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="imagem/png" href="../images/html-5.png" />
+    <title>Formulário de Inscrição</title>
+  </head>
+  <body>
+    <h1>Formulário de Inscrição</h1>
+    <form action="#" method="post">
+      <label for="label">Nome:</label> <br />
+      <input type="text" name="nome" id="nome" required />
+
+      <br /><br />
+
+      <label for="">Email:</label><br />
+      <input type="email" name="email" id="email" required /> <br />
+
+      <br /><br />
+
+      <label for="whatsApp">whatsApp:</label> <br />
+      <input type="number" name="whatsApp" id="whatsApp" required />
+
+      <br /><br />
+
+      <label for="AreaAtuacao">Área de Atuação</label> <br />
+      <label for="Dev">Desenvolvimento</label>
+      <input type="radio" name="Dev" id="Dev" required />
+
+      <label for="Quality Assurance">Quality Assurance (QA)</label>
+      <input type="radio" name="Quality" id="Quality" required />
+
+      <label for="analise">Análise de Dados</label>
+      <input type="radio" name="analise" id="analise" required />
+
+      <label for="infraestrutura">Infraestrutura</label>
+      <input type="radio" name="infra" id="infra" required />
+
+      <br /><br />
+
+      <label for="observation">Observações:</label><br />
+      <textarea
+        name="observation"
+        id="observation"
+        cols="30"
+        rows="5"
+      ></textarea>
+
+      <br /><br />
+
+      <input type="checkbox" name="ofertas" id="ofertas" required />
+      <label for="information"
+        >Desejo receber novidades e ofertas por email.</label
+      ><br />
+      <input type="submit" value="Enviar" id="" />
+    </form>
+  </body>
+</html>

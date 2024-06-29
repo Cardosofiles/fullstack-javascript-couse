@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://hermes.dio.me/articles/cover/2f937dab-e42e-4b14-b8d4-aa05cd6fc50b.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #555;
+  color: #fff;
+}
+
+main {
+  background-color: #e5e5e5;
+  border-width: 2px;
+  border-color: #1c1a1b;
+  border-style: double;
+}
+
+.box1 {
+  background-color: #169436;
+  border: dashed 2px #1c1a1b;
+  height: 64px;
+  width: 320px;
+}
+
+.box2 {
+  background-image: linear-gradient(45deg, #2c2c2d, #f64348);
+  height: 64px;
+  width: 320px;
+  border: 4px dotted;
+}
+
+.box3 {
+  background-color: #0077ff;
+  border: 2px solid #1c1a1d;
+  border-radius: 8px;
+  height: 64px;
+  width: 320px;
+}

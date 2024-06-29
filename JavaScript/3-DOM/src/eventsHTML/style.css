@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Isso garante que a página ocupe a altura total da tela */
+  margin: 0; /* Isso remove a margem padrão do body */
+}
+
+/* Opcional: se você quiser centralizar os elementos verticalmente */
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Opcional: se você quiser adicionar espaço entre os elementos */
+div:not(:last-child) {
+  margin-bottom: 20px; /* Ajuste conforme necessário */
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="imagem/png"
+      href="https://cdn-icons-png.flaticon.com/128/5968/5968292.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+    <title>Event HTML</title>
+  </head>
+  <body>
+    <div>
+      <label for="onMouseEnter">Entrada do Mouse:</label>
+      <input
+        type="text"
+        id="onMouseEnter"
+        onmouseenter="mouseEnterEvent()"
+        required
+      />
+      <!-- onmouseenter - Evento que é acionado quando o mouse entra no elemento -->
+      <!-- required - Atributo que torna o campo obrigatório -->
+    </div>
+    <br />
+    <div>
+      <label for="onChange">Mudança de Valor:</label>
+      <input type="text" id="onChange" onchange="changeEvent()" required />
+      <!-- onchange - Evento que é acionado quando o valor do campo é alterado -->
+    </div>
+    <br />
+    <div>
+      <label for="onFocus">Entrada de Foco:</label>
+      <input type="text" id="onFocus" onfocus="focusEvent()" required />
+      <!-- onfocus - Evento que é acionado quando o campo recebe o foco -->
+    </div>
+    <br />
+    <div>
+      <label for="onBlur">Saída de Foco:</label>
+      <input type="text" id="onBlur" onblur="blurEvent()" required />
+      <!-- inblur - Evento que é acionado quando o campo perde o foco -->
+    </div>
+    <br />
+    <button onclick="clickEvent()">Clique-me!</button>
+  </body>
+</html>
